@@ -1,10 +1,25 @@
+# Put a loop at the start of the game. Asking people if they want to play. 
+
 # First feature
 # feature name:
 require 'colorize'
 
+puts "Are you ready to play? yes or no" 
+
+user_input = gets.chomp 
+while user_input == "no" 
+    puts "fair enough, buddy"
+    exit! 
+    break 
+    if user_input == "yes" 
+        puts "let's play the game"
+    end 
+end
+
 puts "Welcome to the Democracy History Quiz, what is your name?".colorize(:color => :magenta,)
 name = gets.chomp
-puts "Welcome #{name}, What is known as the birthplace of democracy?".colorize(:color => :magenta,)
+puts "Hey #{name}, remember to answer the questions in lower case letters.".colorize(:color => :blue,)
+puts "What is known as the birthplace of democracy?".colorize(:color => :magenta,)
 puts "a. Paris, b. London, c. Rome, d. Athens"
 
 answer1 = gets.chomp 
@@ -34,7 +49,7 @@ answer3 = gets.chomp
    else
     puts "Sorry!, the correct answer is 1628".colorize(:color => :red,)
    end 
-
+puts 
 puts "In What year was the Glorious Revolution in England?".colorize(:color => :magenta,)
 puts "a. 1232, b. 1542, c. 1628, d. 1723"
 answer4 = gets.chomp 
@@ -105,21 +120,21 @@ else
 end 
 puts 
 
-puts "Well done! #{name}! You've finished the quiz!".colorize(:color => :magenta,)
+puts "Well done! #{name}!, you've finished the quiz!".colorize(:color => :magenta,)
+
+# puts "Would you like to play again? yes or no"
+# while user_input == "no"
+#     puts "see you around"
+#     exit! 
+#     break 
+#     if user_input == "yes"
+#     end 
+#    end 
+# Need to figure out how to give the player a score at the end of the game. 
+
+# Would you like to play again? Use a loop to accomplish this. 
 
 
 
 
-
-
-
-
-
-
-# d= gets.chomp
-# puts "You got it right"
-
-# # Methods for Feature 2
-
-# puts "Thanks for playing #{name}"
 
