@@ -33,6 +33,18 @@ Control Flow Diagram
 
 After completing my control flow diagram, it became evident that i would have had a more complex program if i had used loops through the body of my programing rather than if/else statements. If i had more time, i would have changed my code. 
 
+https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Control%20Flow.png
+
+Implementation Plan
+
+My implementation plan was based on the use of two boards on Trello. The first aimed to give me a task by task rundown of the things i need to incoporate into my assessment. The second was more of an overview of the major goals. 
+
+https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Trello%20Board%20update%201%20.png
+
+https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Trello%20update%202.png
+
+https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Trello%20board%203.png
+
 
 
 
