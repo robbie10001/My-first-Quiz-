@@ -1,8 +1,5 @@
-CoderAcademy Term 1- Week 3 Assessment. 
 
 Software Development Plan 
-
-Introduction and Overview 
 
 Statement of Purpose and Scope 
 
@@ -44,6 +41,26 @@ https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/T
 https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Trello%20update%202.png
 
 https://github.com/robbie10001/My-first-Quiz-/blob/master/Terminal_Application/Trello%20board%203.png
+
+Feature 1- User input. 
+
+user input will become functional through the application by the use of gets.chomp. This will enable users to manually input their answers to the various questions that are posed to them. After the users input is assessed they will be taken to the next quiz question. 
+
+Feature 2- Scoreboard
+
+The users score will be tallied throughout the quiz and printed to the use on completion of all the questions. This feature will be achieved by creating the values of correct = 0 and incorrect = 0 at the begining of my code. Throughout the program based on user input, they will either gain a value to their correct or incorrect score. 
+
+Feature 3- Open menu 
+
+At the start of the program, users will be able to either exit the program or continue to the quiz, through user input. This will be achieved through the use of a while loop. 
+
+Error Testing
+
+Error testing has primarily focused on the first feature of the application. This file can be found in my Github repository using these links. 
+
+
+
+
 
 
 
